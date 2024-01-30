@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 def search_song(query):
     # Tạo URL tìm kiếm trên Genius
-    search_url = f"https://zingmp3.vn/tim-kiem/tat-ca?q={query}"
+    search_url = f"https://genius.com/search?q={query}"
 
     # Gửi yêu cầu HTTP và nhận dữ liệu HTML
     response = requests.get(search_url)
